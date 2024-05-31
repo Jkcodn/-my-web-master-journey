@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: poppins;
+    background-color: rgb(31, 26, 34);
+    color: aliceblue;
+}
+.vehicle {
+    width: 900px;
+    margin: 10% auto;
+
+}
+.single-price {
+    width: 33%;
+    background-color: rgb(83, 61, 141);
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+.price {
+    font-family: montserrat;
+    font-weight: bolder;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid;
+    margin: 5% auto 0 auto;
+    text-align: center;
+    background-color: rgb(31, 35, 44);
+    color: rgb(201, 182, 253);
+}
+   
+.offers {
+    margin-top: 10%;
+}
+.single-price {
+    font-size: 18px;
+    color: #fff;
+    line-height: 2.20;
+    text-transform: uppercase;
+
+}
+
+button {
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: 14px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10%;
+    border: non;
+    margin: 5% auto 0 auto;
+    text-align: center;
+    background-color: rgb(31, 35, 44);
+    color: rgb(201, 182, 253);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    animation-duration: 9s;
+}
+.price h2 {
+    font-size: 38px;
+    text-align: center;
+    margin: 20px;
+}
+.single-price:hover {
+    background: rgb(31, 28, 39);
+    box-shadow: 0 0 15px rgb(83, 61, 141);
+    transform: scale(1.04);
+    z-index: 1;
+    border-radius: 25px;
+}
+
